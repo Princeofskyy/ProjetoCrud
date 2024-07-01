@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;700&display=swap');
+
+/* Estilização geral da página */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #f5f5f5, #eb986b);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilizando a header */
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    color: #eb986b;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    color: #eb986b;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    background-color: #eb986b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login:hover {
+    background-color: rgb(241, 117, 75);
+}
+
+/* Estilizando o conteúdo principal */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 800px; 
+    margin: 20px auto; 
+}
+
+.container h1 {
+    font-family: 'Lobster', cursive;
+    color: #eb986b;
+    margin-bottom: 20px;
+}
+
+.container form {
+    margin-bottom: 20px;
+}
+
+.container input[type="text"],
+.container input[type="radio"],
+.container button[type="submit"] {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.container th, .container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.container th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.container td {
+    vertical-align: middle;
+}
+
+.container a {
+    text-decoration: none;
+    color: #eb986b;
+    margin-right: 10px;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+/* Estilizando o footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    margin-top: auto; 
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #333;
+}

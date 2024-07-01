@@ -1,0 +1,12 @@
+/* Estilizando o footer */
+footer {
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
+    width: 120%;
+}
+
+footer p {
+    margin: 0;
+    color: #333;
+}

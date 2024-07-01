@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;700&display=swap');
+
+/* configuração geral da página */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #f5f5f5, #eb986b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.redefinir-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px; 
+    margin: 20px;
+}
+
+/* ajustando os h1 */
+.redefinir-container h1 {
+    font-family: 'Lobster', cursive;
+    color: #eb986b;
+    margin-bottom: 20px;
+}
+
+/* ajustando as labels */
+.redefinir-container label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+/* ajustando os inputs (caica de texto) */
+.redefinir-container input[type="text"],
+.redefinir-container input[type="password"]{
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* ajustando os botões */
+.redefinir-container input[type="submit"],
+.redefinir-container input[type="button"] {
+    background-color: #eb986b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-right: 10px; /* Espaço entre os botões */
+}
+
+.redefinir-container input[type="submit"]:hover,
+.redefinir-container input[type="button"]:hover {
+    background-color: rgb(241, 117, 75);
+}
+
+.redefinir-container p {
+    margin-top: 20px;
+}
+
+.redefinir-container p a {
+    color: #eb986b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redefinir-container p a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;700&display=swap');
+
+/* estilizaçao geral da página*/
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #f5f5f5, #eb986b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.recuperar-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px; 
+    margin: 20px;
+}
+
+/* alterando os h1 */
+.recuperar-container h1 {
+    font-family: 'Lobster', cursive;
+    color: #eb986b;
+    margin-bottom: 20px;
+}
+
+/* alterando as labels */
+.recuperar-container label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+/* alterando o input */
+.recuperar-container input[type="email"] {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* ajustando os botoes */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container input[type="submit"],
+.button-container input[type="button"] {
+    margin-right: 10px; 
+}
+
+.button-container input[type="button"]:last-child {
+    margin-right: 0;
+}
+
+/* ajustando os inputs */
+.recuperar-container input[type="submit"],
+.recuperar-container input[type="button"] {
+    background-color: #eb986b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.recuperar-container input[type="submit"]:hover,
+.recuperar-container input[type="button"]:hover {
+    background-color: rgb(241, 117, 75);
+}
+
+.recuperar-container p {
+    margin-top: 20px;
+}
+
+.recuperar-container p a {
+    color: #eb986b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.recuperar-container p a:hover {
+    text-decoration: underline;
+}
