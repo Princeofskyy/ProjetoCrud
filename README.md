@@ -7,9 +7,12 @@ Bem-vindo ao repositório do meu primeiro Projeto Crud, o projeto visa criar um 
 - [Visão Geral](#visão-geral)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Como Usar](#como-usar)  
-- [Características](#características)  
-- [Realizador do Projeto](#realizadores-do-projeto)
+- [Características](#características)
+- [Funcionalidades](#funcionalidades-principais)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Realizador do Projeto](#realizador-do-projeto)
 - [Contribuição](#contribuição)
+
 
 ## Visão Geral
 
@@ -21,7 +24,7 @@ O site, a principio feito para ser simples, é uma primeira tentativa de realiza
 <img src="./imagens/TelaUsuarios.png" alt="usuarios" width="1000" height="444">
 <img src="./imagens/TelaCadUsuarios.png" alt="cadusuarios" width="1000" height="444">
 <img src="./imagens/TelaNotícias.png" alt="noticias" width="1000" height="444">
-<img src="./imagens/TelaCadNoticias.png.png.png" alt="cdnoticias" width="1000" height="444">
+<img src="./imagens/TelaCadNoticias.png" alt="cdnoticias" width="1000" height="444">
 
 
 ## Estrutura do Projeto
@@ -40,6 +43,20 @@ O site, a principio feito para ser simples, é uma primeira tentativa de realiza
    ```bash
    git clone https://github.com/Princeofskyy/ProjetoCrud.git
 
+   
+## Características
+
+### Funcionalidades Principais:
+
+- **Cadastro e Login de Usuários:** Sistema de autenticação para acesso ao portal.
+- **Gerenciamento de Notícias:** CRUD para criação, leitura, atualização e deleção de notícias.
+- **Conexão com Banco de Dados:** Integração com MySQL para armazenamento e recuperação de dados.
+
+### Tecnologias Utilizadas:
+
+- **PHP:** Linguagem de programação utilizada para o backend.
+- **MySQL:** Banco de dados utilizado para armazenar informações.
+- **HTML/CSS:** Estrutura e estilo da interface do usuário.
 
 ### Realizador do Projeto.
 
@@ -50,7 +67,7 @@ O projeto foi pensado e elaborado sozinho, conforme as atividade que o professor
 
 ### Contribuição
 
-Contribuições são bem-vindas! Sinta-se à vontade para sugerir melhorias na responsividade para diferentes dispositivos e tamanhos de tela.
+Contribuições são bem-vindas! Sinta-se à vontade para sugerir melhorias em design, funcionalidades e qualquer comentário referente ao site.
 
 ---
 
