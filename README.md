@@ -34,7 +34,7 @@ O site, a principio feito para ser simples, é uma primeira tentativa de realiza
 - `imagens/`: Diretório para armazenar imagens do site.
 - `classes/`: Diretório contendo as classes de Database, Noticias e Usuários.
 - `config/`: Diretório para conexão com o banco de dados.
-- `header&footer/`: Diretório para armazenar as headers e footer do sites.
+- `header&footer/`: Diretório para armazenar as headers e footers do site.
   
 ## Como Usar
 
@@ -60,7 +60,7 @@ O site, a principio feito para ser simples, é uma primeira tentativa de realiza
 
 ### Realizador do Projeto.
 
-O projeto foi pensado e elaborado sozinho, conforme as atividade que o professor passou em aula, composto por:
+O projeto foi pensado e elaborado sozinho, conforme as atividades que o professor passou em aula, composto por:
 
 - [**Gabriel Costa**](https://github.com/Princeofskyy)
 
