@@ -1,6 +1,6 @@
 # Primeiro Projeto Crud.
 
-Bem-vindo ao repositório do meu primeiro Projeto Crud, o projeto visa criar um site onde é possível verificar as notícias cadastradas, fazer login, cadastrar usuários, cadastrar notícias e, consequentemente, editá-los. O Projeto também é uma primeira tentativa de conectar o site, feito em PHP, com o banco de dados, feito através do phpMyAdmin e Workbench.
+Bem-vindo ao repositório do meu primeiro Projeto Crud, o projeto visa criar um site onde é possível verificar as notícias cadastradas, fazer login, cadastrar usuários, cadastrar notícias e, consequentemente, editá-los. O Projeto também é uma primeira tentativa de conectar o site, feito em PHP, com o banco de dados através do phpMyAdmin e Workbench.
 
 ## Conteúdo
 
